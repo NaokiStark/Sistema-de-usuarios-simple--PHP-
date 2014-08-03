@@ -73,3 +73,9 @@ Simple, edita la variable **$max_session_duration** con el tiempo deseado en el 
 
 ```
 
+¡Un bicho, mátalo!
+------------------
+
+Este es un proyecto de libre modificación y uso, en caso de encontrar un **bug** se agradecerá informarlo.
+
+Fabián.
