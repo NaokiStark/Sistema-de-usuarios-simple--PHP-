@@ -52,3 +52,7 @@ Es sencillo, solamente con este bloque al principio del archivo es suficiente pa
 
 ```
 
+Necesito más tiempo de sesión, ¿Cómo lo cambio?
+-----------------------------------------------
+
+Simple, edita la variable **$max_session_duration** con el tiempo deseado en el archivo **register_session.php**
