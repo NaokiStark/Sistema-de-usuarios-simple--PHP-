@@ -55,4 +55,21 @@ Es sencillo, solamente con este bloque al principio del archivo es suficiente pa
 Necesito más tiempo de sesión, ¿Cómo lo cambio?
 -----------------------------------------------
 
-Simple, edita la variable **$max_session_duration** con el tiempo deseado en el archivo **register_session.php**
+Simple, edita la variable **$max_session_duration** con el tiempo deseado en el archivo **register_session.php**, expresado **en segundos**.
+
+```php
+<?php
+/* 
+   register_session.php by Fabián (http://taringa.net/max_pc)
+   Free for use and modification (Libre para uso y modificación)
+*/
+   # Abrimos sesion
+   session_start();
+
+   # Tiempo máximo en el cual dura la sesión, expresada en segundos.
+
+   $max_session_duration=1800;
+
+
+```
+
