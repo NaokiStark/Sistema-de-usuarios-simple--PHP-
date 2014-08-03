@@ -2,7 +2,8 @@
 	# Comprobamos si está logueado, nada de cosas raras...
 	require 'checksession.php';
 	if(!$logged){
-		Header('Location: index.php');
+		header('HTTP/1.0 403 Forbidden');
+		die('Forbidden [HTTP 403]');
 	}
 	
 ?>
