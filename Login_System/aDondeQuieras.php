@@ -4,7 +4,7 @@
 	if(!$logged){
 		header('HTTP/1.0 403 Forbidden');
 		die('Forbidden [HTTP 403]');
-	}
+	}else{
 	
 ?>
 <!DOCTYPE html>
@@ -53,3 +53,4 @@
 	}
 </style>
 </html>
+<?php } ?>
